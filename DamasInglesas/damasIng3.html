@@ -1,0 +1,3546 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Practica 4</title>
+	
+	<script>
+		var turno = "Jugador2";
+
+	function muestraLetra(){ 
+		
+    if(turno=="Jugador2"){ 
+    	document.getElementById("boton").innerHTML="Jugador2";
+        document.getElementById("turno").innerHTML="Turno Jugador1";
+    	turno="Jugador1";
+        //validaGanador("Jugador2")
+    }else{ 
+    	document.getElementById("boton").innerHTML="Turno Jugador2";
+    document.getElementById("boton").innerHTML=" Jugador1";
+   turno="Jugador2"; 
+    	//validaGanador("Jugador1");
+    	document.getElementById("turno").innerHTML="Turno Jugador2";
+    	
+    	
+
+    }
+
+
+
+
+    }
+		function registra(){
+		var b=false; 
+		
+
+			var Ficha1=document.getElementById("Ficha1").value;
+
+			var Ficha2=document.getElementById("Ficha2").value;
+
+			var punt1=document.getElementById("punt1").value;
+
+			var punt2=document.getElementById("punt2").value;
+
+			var comer1=document.getElementById("comer1").value;
+
+			var comer2=document.getElementById("comer2").value;
+
+		    var f10=0;
+
+		    var puntJug1=0;
+
+		    var puntJug2=0;
+
+
+        var ganadorJug1=0;
+
+        var ganadorJug2=0;
+
+		    
+
+			
+
+			elementos1= document.getElementById("elementos1").value;
+			elementos2= document.getElementById("elementos2").value;
+			elementos3= document.getElementById("elementos3").value;
+			elementos4= document.getElementById("elementos4").value;
+			elementos5= document.getElementById("elementos5").value;
+			elementos6= document.getElementById("elementos6").value;
+			elementos7= document.getElementById("elementos7").value;
+			elementos8= document.getElementById("elementos8").value;
+			elementos9= document.getElementById("elementos9").value;
+			elementos10= document.getElementById("elementos10").value;
+
+			elementos11= document.getElementById("elementos11").value;
+			elementos12= document.getElementById("elementos12").value;
+			elementos13= document.getElementById("elementos13").value;
+			elementos14= document.getElementById("elementos14").value;
+			elementos15= document.getElementById("elementos15").value;
+			elementos16= document.getElementById("elementos16").value;
+			elementos17= document.getElementById("elementos17").value;
+			elementos18= document.getElementById("elementos18").value;
+			elementos19= document.getElementById("elementos19").value;
+			elementos20= document.getElementById("elementos20").value;
+
+			elementos21= document.getElementById("elementos21").value;
+			elementos21= document.getElementById("elementos22").value;
+			elementos23= document.getElementById("elementos23").value;
+			elementos24= document.getElementById("elementos24").value;
+			elementos25= document.getElementById("elementos25").value;
+			elementos25= document.getElementById("elementos25").value;
+			elementos26= document.getElementById("elementos26").value;
+			elementos27= document.getElementById("elementos27").value;
+			elementos28= document.getElementById("elementos28").value;
+			elementos29= document.getElementById("elementos29").value;
+			elementos30= document.getElementById("elementos30").value;
+
+			elementos31= document.getElementById("elementos31").value;
+			elementos32= document.getElementById("elementos32").value;
+			elementos33= document.getElementById("elementos33").value;
+			elementos34= document.getElementById("elementos34").value;
+			elementos34= document.getElementById("elementos34").value;
+			elementos35= document.getElementById("elementos35").value;
+			elementos36= document.getElementById("elementos36").value;
+			elementos37= document.getElementById("elementos37").value;
+			elementos39= document.getElementById("elementos28").value;
+			elementos40= document.getElementById("elementos39").value;
+
+			elementos41= document.getElementById("elementos40").value;
+			elementos42= document.getElementById("elementos41").value;
+			elementos43= document.getElementById("elementos42").value;
+			elementos44= document.getElementById("elementos43").value;
+			elementos45= document.getElementById("elementos45").value;
+			elementos46= document.getElementById("elementos46").value;
+			elementos47= document.getElementById("elementos47").value;
+			elementos48= document.getElementById("elementos48").value;
+			elementos49= document.getElementById("elementos49").value;
+			elementos50= document.getElementById("elementos50").value;
+
+			elementos51= document.getElementById("elementos51").value;
+			elementos52= document.getElementById("elementos52").value;
+			elementos53= document.getElementById("elementos53").value;
+			elementos54= document.getElementById("elementos54").value;
+			elementos55= document.getElementById("elementos55").value;
+			elementos56= document.getElementById("elementos56").value;
+			elementos57= document.getElementById("elementos57").value;
+			elementos58= document.getElementById("elementos58").value;
+			elementos59= document.getElementById("elementos59").value;
+			elementos60= document.getElementById("elementos60").value;
+
+			elementos61= document.getElementById("elementos61").value;
+			elementos62= document.getElementById("elementos62").value;
+			elementos63= document.getElementById("elementos63").value;
+			elementos64= document.getElementById("elementos64").value;
+
+			document.getElementById("elementos").innerHTML+="<div class='well'>¿Quieres comer jugador 1?:"+comer1+"</div>";
+			document.getElementById("elementos").innerHTML+="<div class='well'>¿Quieres comer jugador 2?:"+comer2+"</div>";
+			document.getElementById("elementos").innerHTML+="<div class='well'>Ficha1:"+punt1+"</div>";
+			
+			document.getElementById("elementos").innerHTML+="<div class='well'>Ficha2:"+punt2+"</div>";
+			document.getElementById("elementos").innerHTML+="<div class='well'>lado:"+Ficha2+"</div>";
+
+
+      ////////////////////////////////////////////////////////////////////////
+
+       if(punt1==32){
+        f10=63;
+     if(Ficha1==1){
+        
+      if(f10==63 && comer1==1){ 
+          
+          
+        elementos49=document.getElementById("elementos"+(f10-14)).src="Ficha2.jpg";
+            elementos56=document.getElementById("elementos56").src="Cuane.jpg";
+             
+        
+        elementos63=document.getElementById("elementos63").src="Cuane.jpg";
+        b=false;
+        puntJug1=puntJug1+1;
+
+             
+  }else if(f10==63 && comer1==2){ 
+
+    elementos56=document.getElementById("elementos"+(f10-7)).src="Ficha2.jpg";
+             b=true;
+             elementos63=document.getElementById("elementos63").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+
+
+      if(punt1==32){
+        f10=63;
+     if(Ficha1==2){
+        
+      if(f10==61 && comer1==1){ 
+          
+          
+        elementos45=document.getElementById("elementos"+(f10-18)).src="Ficha2.jpg";
+            elementos54=document.getElementById("elementos54").src="Cuane.jpg";
+             
+        
+        elementos63=document.getElementById("elementos63").src="Cuane.jpg";
+        b=false;
+        puntJug1=puntJug1+1;
+
+             
+  }else if(f10==63 && comer1==2){ 
+
+    elementos54=document.getElementById("elementos"+(f10-9)).src="Ficha2.jpg";
+             b=true;
+             elementos63=document.getElementById("elementos63").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+      //////////////////////////////////////////////////////////////////////
+      if(punt1==31){
+        f10=61;
+     if(Ficha1==1){
+        
+      if(f10==61 && comer1==1){ 
+          
+          
+        elementos47=document.getElementById("elementos"+(f10-14)).src="Ficha2.jpg";
+            elementos54=document.getElementById("elementos54").src="Cuane.jpg";
+             
+        
+        elementos61=document.getElementById("elementos54").src="Cuane.jpg";
+        b=false;
+        puntJug1=puntJug1+1;
+
+             
+  }else if(f10==61 && comer1==2){ 
+
+    elementos54=document.getElementById("elementos"+(f10-7)).src="Ficha2.jpg";
+             b=true;
+             elementos61=document.getElementById("elementos61").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+
+
+      if(punt1==31){
+        f10=61;
+     if(Ficha1==2){
+        
+      if(f10==61 && comer1==1){ 
+          
+          
+        elementos43=document.getElementById("elementos"+(f10-18)).src="Ficha2.jpg";
+            elementos52=document.getElementById("elementos52").src="Cuane.jpg";
+             
+        
+        elementos61=document.getElementById("elementos61").src="Cuane.jpg";
+        b=false;
+        puntJug1=puntJug1+1;
+
+             
+  }else if(f10==61 && comer1==2){ 
+
+    elementos52=document.getElementById("elementos"+(f10-9)).src="Ficha2.jpg";
+             b=true;
+             elementos61=document.getElementById("elementos61").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+      //////////////////////////////////////////////////////////
+      if(punt1==30){
+        f10=59;
+     if(Ficha1==1){
+        
+      if(f10==59 && comer1==1){ 
+          
+          
+        elementos45=document.getElementById("elementos"+(f10-14)).src="Ficha2.jpg";
+            elementos52=document.getElementById("elementos52").src="Cuane.jpg";
+             
+        
+        elementos59=document.getElementById("elementos54").src="Cuane.jpg";
+        b=false;
+        puntJug1=puntJug1+1;
+
+             
+  }else if(f10==59 && comer1==2){ 
+
+    elementos52=document.getElementById("elementos"+(f10-7)).src="Ficha2.jpg";
+             b=true;
+             elementos59=document.getElementById("elementos59").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+
+
+      if(punt1==30){
+        f10=59;
+     if(Ficha1==2){
+        
+      if(f10==59 && comer1==1){ 
+          
+          
+        elementos41=document.getElementById("elementos"+(f10-18)).src="Ficha2.jpg";
+            elementos50=document.getElementById("elementos50").src="Cuane.jpg";
+             
+        
+        elementos59=document.getElementById("elementos59").src="Cuane.jpg";
+        b=false;
+        puntJug1=puntJug1+1;
+
+             
+  }else if(f10==59 && comer1==2){ 
+
+    elementos50=document.getElementById("elementos"+(f10-9)).src="Ficha2.jpg";
+             b=true;
+             elementos59=document.getElementById("elementos59").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+//////////////////////////////////////////////////////////////
+if(punt1==29){
+        f10=57;
+     if(Ficha1==1){
+        
+      if(f10==57 && comer1==1){ 
+          
+          
+        elementos43=document.getElementById("elementos"+(f10-14)).src="Ficha2.jpg";
+            elementos50=document.getElementById("elementos50").src="Cuane.jpg";
+             
+        
+        elementos57=document.getElementById("elementos57").src="Cuane.jpg";
+        b=false;
+        puntJug1=puntJug1+1;
+
+             
+  }else if(f10==57 && comer1==2){ 
+
+    elementos50=document.getElementById("elementos"+(f10-7)).src="Ficha2.jpg";
+             b=true;
+             elementos57=document.getElementById("elementos57").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+
+      ///////////////////////////////////////////////////////////////////////////
+  if(punt1==28){
+        f10=56;
+     if(Ficha1==2){
+        
+      if(f10==56 && comer1==1){ 
+          
+          
+        elementos38=document.getElementById("elementos"+(f10-18)).src="Ficha2.jpg";
+            elementos47=document.getElementById("elementos47").src="Cuane.jpg";
+             
+        
+        elementos56=document.getElementById("elementos56").src="Cuane.jpg";
+        b=false;
+        puntJug1=puntJug1+1;
+
+             
+  }else if(f10==56 && comer1==2){ 
+
+    elementos47=document.getElementById("elementos"+(f10-9)).src="Ficha2.jpg";
+             b=true;
+             elementos56=document.getElementById("elementos56").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+////////////////////////////////////////////////////////////////////////////////////
+
+ if(punt1==27){
+        f10=54;
+     if(Ficha1==1){
+        
+      if(f10==54 && comer1==1){ 
+          
+          
+        elementos40=document.getElementById("elementos"+(f10-14)).src="Ficha2.jpg";
+            elementos47=document.getElementById("elementos47").src="Cuane.jpg";
+             
+        
+        elementos54=document.getElementById("elementos54").src="Cuane.jpg";
+        b=false;
+        puntJug1=puntJug1+1;
+
+             
+  }else if(f10==54 && comer1==2){ 
+
+    elementos47=document.getElementById("elementos"+(f10-7)).src="Ficha2.jpg";
+             b=true;
+             elementos54=document.getElementById("elementos54").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+
+
+      if(punt1==27){
+        f10=54;
+     if(Ficha1==2){
+        
+      if(f10==54 && comer1==1){ 
+          
+          
+        elementos36=document.getElementById("elementos"+(f10-18)).src="Ficha2.jpg";
+            elementos45=document.getElementById("elementos45").src="Cuane.jpg";
+             
+        
+        elementos54=document.getElementById("elementos54").src="Cuane.jpg";
+        b=false;
+        puntJug1=puntJug1+1;
+
+             
+  }else if(f10==54 && comer1==2){ 
+
+    elementos45=document.getElementById("elementos"+(f10-9)).src="Ficha2.jpg";
+             b=true;
+             elementos54=document.getElementById("elementos54").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+
+      //////////////////////////////////////////////////////////////////////////
+      if(punt1==26){
+        f10=52;
+     if(Ficha1==1){
+        
+      if(f10==52 && comer1==1){ 
+          
+          
+        elementos38=document.getElementById("elementos"+(f10-14)).src="Ficha2.jpg";
+            elementos45=document.getElementById("elementos45").src="Cuane.jpg";
+             
+        
+        elementos52=document.getElementById("elementos52").src="Cuane.jpg";
+        b=false;
+        puntJug1=puntJug1+1;
+
+             
+  }else if(f10==52 && comer1==2){ 
+
+    elementos45=document.getElementById("elementos"+(f10-7)).src="Ficha2.jpg";
+             b=true;
+             elementos52=document.getElementById("elementos52").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+
+
+      if(punt1==26){
+        f10=52;
+     if(Ficha1==2){
+        
+      if(f10==52 && comer1==1){ 
+          
+          
+        elementos34=document.getElementById("elementos"+(f10-18)).src="Ficha2.jpg";
+            elementos43=document.getElementById("elementos43").src="Cuane.jpg";
+             
+        
+        elementos52=document.getElementById("elementos52").src="Cuane.jpg";
+        b=false;
+        puntJug1=puntJug1+1;
+
+             
+  }else if(f10==52 && comer1==2){ 
+
+    elementos43=document.getElementById("elementos"+(f10-9)).src="Ficha2.jpg";
+             b=true;
+             elementos52=document.getElementById("elementos52").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+
+      ////////////////////////////////////////////////////////////////////
+
+
+      if(punt1==25){
+        f10=50;
+     if(Ficha1==1){
+        
+      if(f10==50 && comer1==1){ 
+          
+          
+        elementos36=document.getElementById("elementos"+(f10-14)).src="Ficha2.jpg";
+            elementos43=document.getElementById("elementos43").src="Cuane.jpg";
+             
+        
+        elementos50=document.getElementById("elementos50").src="Cuane.jpg";
+        b=false;
+        puntJug1=puntJug1+1;
+
+             
+  }else if(f10==50 && comer1==2){ 
+
+    elementos43=document.getElementById("elementos"+(f10-7)).src="Ficha2.jpg";
+             b=true;
+             elementos50=document.getElementById("elementos50").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+
+
+      if(punt1==25){
+        f10=50;
+     if(Ficha1==2){
+        
+      if(f10==50 && comer1==1){ 
+          
+          
+        elementos32=document.getElementById("elementos"+(f10-18)).src="Ficha2.jpg";
+            elementos41=document.getElementById("elementos41").src="Cuane.jpg";
+             
+        
+        elementos50=document.getElementById("elementos50").src="Cuane.jpg";
+        b=false;
+        puntJug1=puntJug1+1;
+
+             
+  }else if(f10==50 && comer1==2){ 
+
+    elementos41=document.getElementById("elementos"+(f10-9)).src="Ficha2.jpg";
+             b=true;
+             elementos50=document.getElementById("elementos50").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+
+////////////////////////////////////FICHA2/////////////////////
+
+
+
+if(punt1==24){
+        f10=47;
+     if(Ficha1==1){
+        
+      if(f10==47 && comer1==1){ 
+          
+          
+        elementos33=document.getElementById("elementos"+(f10-14)).src="Ficha2.jpg";
+            elementos40=document.getElementById("elementos40").src="Cuane.jpg";
+             
+        
+        elementos47=document.getElementById("elementos47").src="Cuane.jpg";
+        b=false;
+        puntJug1=puntJug1+1;
+
+             
+  }else if(f10==47 && comer1==2){ 
+
+    elementos40=document.getElementById("elementos"+(f10-7)).src="Ficha2.jpg";
+             b=true;
+             elementos47=document.getElementById("elementos47").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+
+
+      if(punt1==24){
+        f10=47;
+     if(Ficha1==2){
+        
+      if(f10==47 && comer1==1){ 
+          
+          
+        elementos29=document.getElementById("elementos"+(f10-18)).src="Ficha2.jpg";
+            elementos38=document.getElementById("elementos38").src="Cuane.jpg";
+             
+        
+        elementos47=document.getElementById("elementos47").src="Cuane.jpg";
+        b=false;
+        puntJug1=puntJug1+1;
+
+             
+  }else if(f10==47 && comer1==2){ 
+
+    elementos38=document.getElementById("elementos"+(f10-9)).src="Ficha2.jpg";
+             b=true;
+             elementos47=document.getElementById("elementos47").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+
+
+     /////////////////////////////////////////////////////////////////////////
+
+      if(punt1==23){
+        f10=45;
+     if(Ficha1==1){
+        
+      if(f10==45 && comer1==1){ 
+          
+          
+        elementos31=document.getElementById("elementos"+(f10-14)).src="Ficha2.jpg";
+            elementos38=document.getElementById("elementos38").src="Cuane.jpg";
+             
+        
+        elementos45=document.getElementById("elementos45").src="Cuane.jpg";
+        b=false;
+        puntJug1=puntJug1+1;
+
+             
+  }else if(f10==45 && comer1==2){ 
+
+    elementos38=document.getElementById("elementos"+(f10-7)).src="Ficha2.jpg";
+             b=true;
+             elementos45=document.getElementById("elementos45").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+
+
+      if(punt1==23){
+        f10=45;
+     if(Ficha1==2){
+        
+      if(f10==45 && comer1==1){ 
+          
+          
+        elementos27=document.getElementById("elementos"+(f10-18)).src="Ficha2.jpg";
+            elementos36=document.getElementById("elementos36").src="Cuane.jpg";
+             
+        
+        elementos45=document.getElementById("elementos45").src="Cuane.jpg";
+        b=false;
+        puntJug1=puntJug1+1;
+
+             
+  }else if(f10==45 && comer1==2){ 
+
+    elementos36=document.getElementById("elementos"+(f10-9)).src="Ficha2.jpg";
+             b=true;
+             elementos45=document.getElementById("elementos45").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+       //////////////////////////////////////////////////////////////   
+ if(punt1==22){
+        f10=43;
+     if(Ficha1==1){
+        
+      if(f10==43 && comer1==1){ 
+          
+          
+        elementos29=document.getElementById("elementos"+(f10-14)).src="Ficha2.jpg";
+            elementos36=document.getElementById("elementos36").src="Cuane.jpg";
+             
+        
+        elementos43=document.getElementById("elementos43").src="Cuane.jpg";
+        b=false;
+        puntJug1=puntJug1+1;
+
+             
+  }else if(f10==43 && comer1==2){ 
+
+    elementos36=document.getElementById("elementos"+(f10-7)).src="Ficha2.jpg";
+             b=true;
+             elementos43=document.getElementById("elementos43").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+
+
+      if(punt1==22){
+        f10=43;
+     if(Ficha1==2){
+        
+      if(f10==43 && comer1==1){ 
+          
+          
+        elementos25=document.getElementById("elementos"+(f10-18)).src="Ficha2.jpg";
+            elementos34=document.getElementById("elementos34").src="Cuane.jpg";
+             
+        
+        elementos43=document.getElementById("elementos43").src="Cuane.jpg";
+        b=false;
+        puntJug1=puntJug1+1;
+
+             
+  }else if(f10==43 && comer1==2){ 
+
+    elementos34=document.getElementById("elementos"+(f10-9)).src="Ficha2.jpg";
+             b=true;
+             elementos43=document.getElementById("elementos43").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+        ////////////////////////////////////////////////////////////////////////////  
+
+
+        if(punt1==21){
+        f10=41;
+     if(Ficha1==1){
+        
+      if(f10==41 && comer1==1){ 
+          
+          
+        elementos27=document.getElementById("elementos"+(f10-14)).src="Ficha2.jpg";
+            elementos34=document.getElementById("elementos34").src="Cuane.jpg";
+             
+        
+        elementos41=document.getElementById("elementos41").src="Cuane.jpg";
+        b=false;
+        puntJug1=puntJug1+1;
+
+             
+  }else if(f10==41 && comer1==2){ 
+
+    elementos34=document.getElementById("elementos"+(f10-7)).src="Ficha2.jpg";
+             b=true;
+             elementos41=document.getElementById("elementos41").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+        ///////////////////////////////////////////////////////////////////////////////////
+         if(punt1==20){
+        f10=40;
+     if(Ficha1==2){
+        
+      if(f10==40 && comer1==1){ 
+          
+          
+        elementos22=document.getElementById("elementos"+(f10-18)).src="Ficha2.jpg";
+            elementos31=document.getElementById("elementos31").src="Cuane.jpg";
+             
+        
+        elementos40=document.getElementById("elementos40").src="Cuane.jpg";
+        b=false;
+        puntJug1=puntJug1+1;
+
+             
+  }else if(f10==40 && comer1==2){ 
+
+    elementos31=document.getElementById("elementos"+(f10-9)).src="Ficha2.jpg";
+             b=true;
+             elementos40=document.getElementById("elementos40").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+          ////////////////////////////////////////////////////////
+          if(punt1==19){
+        f10=38;
+     if(Ficha1==1){
+        
+      if(f10==38 && comer1==1){ 
+          
+          
+        elementos24=document.getElementById("elementos"+(f10-14)).src="Ficha2.jpg";
+            elementos31=document.getElementById("elementos31").src="Cuane.jpg";
+             
+        
+        elementos38=document.getElementById("elementos38").src="Cuane.jpg";
+        b=false;
+        puntJug1=puntJug1+1;
+
+             
+  }else if(f10==38 && comer1==2){ 
+
+    elementos31=document.getElementById("elementos"+(f10-7)).src="Ficha2.jpg";
+             b=true;
+             elementos38=document.getElementById("elementos38").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+
+
+      if(punt1==19){
+        f10=38;
+     if(Ficha1==2){
+        
+      if(f10==38 && comer1==1){ 
+          
+          
+        elementos20=document.getElementById("elementos"+(f10-18)).src="Ficha2.jpg";
+            elementos29=document.getElementById("elementos29").src="Cuane.jpg";
+             
+        
+        elementos38=document.getElementById("elementos38").src="Cuane.jpg";
+        b=false;
+        puntJug1=puntJug1+1;
+
+             
+  }else if(f10==38 && comer1==2){ 
+
+    elementos29=document.getElementById("elementos"+(f10-9)).src="Ficha2.jpg";
+             b=true;
+             elementos38=document.getElementById("elementos38").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+          //////////////////////////////////////////////////////////////////////////////////////
+          if(punt1==18){
+        f10=36;
+     if(Ficha1==1){
+        
+      if(f10==36 && comer1==1){ 
+          
+          
+        elementos22=document.getElementById("elementos"+(f10-14)).src="Ficha2.jpg";
+            elementos29=document.getElementById("elementos29").src="Cuane.jpg";
+             
+        
+        elementos36=document.getElementById("elementos36").src="Cuane.jpg";
+        b=false;
+        puntJug1=puntJug1+1;
+
+             
+  }else if(f10==36 && comer1==2){ 
+
+    elementos29=document.getElementById("elementos"+(f10-7)).src="Ficha2.jpg";
+             b=true;
+             elementos36=document.getElementById("elementos36").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+
+
+      if(punt1==18){
+        f10=36;
+     if(Ficha1==2){
+        
+      if(f10==36 && comer1==1){ 
+          
+          
+        elementos18=document.getElementById("elementos"+(f10-18)).src="Ficha2.jpg";
+            elementos27=document.getElementById("elementos27").src="Cuane.jpg";
+             
+        
+        elementos36=document.getElementById("elementos36").src="Cuane.jpg";
+        b=false;
+        puntJug1=puntJug1+1;
+
+             
+  }else if(f10==36 && comer1==2){ 
+
+    elementos27=document.getElementById("elementos"+(f10-9)).src="Ficha2.jpg";
+             b=true;
+             elementos36=document.getElementById("elementos36").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+  /////////////////////////////////////////////////////////////////////////////
+ if(punt1==17){
+        f10=34;
+     if(Ficha1==1){
+        
+      if(f10==34 && comer1==1){ 
+          
+          
+        elementos20=document.getElementById("elementos"+(f10-14)).src="Ficha2.jpg";
+            elementos27=document.getElementById("elementos27").src="Cuane.jpg";
+             
+        
+        elementos34=document.getElementById("elementos34").src="Cuane.jpg";
+        b=false;
+        puntJug1=puntJug1+1;
+
+             
+  }else if(f10==34 && comer1==2){ 
+
+    elementos27=document.getElementById("elementos"+(f10-7)).src="Ficha2.jpg";
+             b=true;
+             elementos34=document.getElementById("elementos34").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+
+
+      if(punt1==17){
+        f10=34;
+     if(Ficha1==2){
+        
+      if(f10==34 && comer1==1){ 
+          
+          
+        elementos16=document.getElementById("elementos"+(f10-18)).src="Ficha2.jpg";
+            elementos25=document.getElementById("elementos25").src="Cuane.jpg";
+             
+        
+        elementos34=document.getElementById("elementos34").src="Cuane.jpg";
+        b=false;
+        puntJug1=puntJug1+1;
+
+             
+  }else if(f10==34 && comer1==2){ 
+
+    elementos25=document.getElementById("elementos"+(f10-9)).src="Ficha2.jpg";
+             b=true;
+             elementos34=document.getElementById("elementos34").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+          ///////////////////////////////////////////////////////////////////////
+
+           if(punt1==16){
+        f10=31;
+     if(Ficha1==1){
+        
+      if(f10==31 && comer1==1){ 
+          
+          
+        elementos17=document.getElementById("elementos"+(f10-14)).src="Ficha2.jpg";
+            elementos24=document.getElementById("elementos24").src="Cuane.jpg";
+             
+        
+        elementos31=document.getElementById("elementos31").src="Cuane.jpg";
+        b=false;
+        puntJug1=puntJug1+1;
+
+             
+  }else if(f10==31 && comer1==2){ 
+
+    elementos24=document.getElementById("elementos"+(f10-7)).src="Ficha2.jpg";
+             b=true;
+             elementos31=document.getElementById("elementos31").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+
+
+      if(punt1==16){
+        f10=31;
+     if(Ficha1==2){
+        
+      if(f10==31 && comer1==1){ 
+          
+          
+        elementos13=document.getElementById("elementos"+(f10-18)).src="Ficha2.jpg";
+            elementos22=document.getElementById("elementos22").src="Cuane.jpg";
+             
+        
+        elementos31=document.getElementById("elementos31").src="Cuane.jpg";
+        b=false;
+        puntJug1=puntJug1+1;
+
+             
+  }else if(f10==31 && comer1==2){ 
+
+    elementos22=document.getElementById("elementos"+(f10-9)).src="Ficha2.jpg";
+             b=true;
+             elementos31=document.getElementById("elementos31").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+
+          //////////////////////////////////////////////////////////////////////
+
+              if(punt1==15){
+        f10=29;
+     if(Ficha1==1){
+        
+      if(f10==29 && comer1==1){ 
+          
+          
+        elementos15=document.getElementById("elementos"+(f10-14)).src="Ficha2.jpg";
+            elementos22=document.getElementById("elementos22").src="Cuane.jpg";
+             
+        
+        elementos29=document.getElementById("elementos29").src="Cuane.jpg";
+        b=false;
+        puntJug1=puntJug1+1;
+
+             
+  }else if(f10==29 && comer1==2){ 
+
+    elementos22=document.getElementById("elementos"+(f10-7)).src="Ficha2.jpg";
+             b=true;
+             elementos29=document.getElementById("elementos29").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+
+
+      if(punt1==15){
+        f10=29;
+     if(Ficha1==2){
+        
+      if(f10==29 && comer1==1){ 
+          
+          
+        elementos11=document.getElementById("elementos"+(f10-18)).src="Ficha2.jpg";
+            elementos20=document.getElementById("elementos20").src="Cuane.jpg";
+             
+        
+        elementos29=document.getElementById("elementos29").src="Cuane.jpg";
+        b=false;
+        puntJug1=puntJug1+1;
+
+             
+  }else if(f10==29 && comer1==2){ 
+
+    elementos20=document.getElementById("elementos"+(f10-9)).src="Ficha2.jpg";
+             b=true;
+             elementos29=document.getElementById("elementos29").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+          //////////////////////////////////////////////////////////////////////7
+          if(punt1==14){
+        f10=27;
+     if(Ficha1==1){
+        
+      if(f10==27 && comer1==1){ 
+          
+          
+        elementos13=document.getElementById("elementos"+(f10-14)).src="Ficha2.jpg";
+            elementos20=document.getElementById("elementos20").src="Cuane.jpg";
+             
+        
+        elementos27=document.getElementById("elementos27").src="Cuane.jpg";
+        b=false;
+        puntJug1=puntJug1+1;
+
+             
+  }else if(f10==27 && comer1==2){ 
+
+    elementos20=document.getElementById("elementos"+(f10-7)).src="Ficha2.jpg";
+             b=true;
+             elementos27=document.getElementById("elementos27").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+
+
+      if(punt1==14){
+        f10=27;
+     if(Ficha1==2){
+        
+      if(f10==27 && comer1==1){ 
+          
+          
+        elementos9=document.getElementById("elementos"+(f10-18)).src="Ficha2.jpg";
+            elementos18=document.getElementById("elementos18").src="Cuane.jpg";
+             
+        
+        elementos27=document.getElementById("elementos27").src="Cuane.jpg";
+        b=false;
+        puntJug1=puntJug1+1;
+
+             
+  }else if(f10==27 && comer1==2){ 
+
+    elementos18=document.getElementById("elementos"+(f10-9)).src="Ficha2.jpg";
+             b=true;
+             elementos27=document.getElementById("elementos27").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+
+          /////////////////////////////////////////////////////////////////
+
+          if(punt1==13){
+        f10=25;
+     if(Ficha1==1){
+        
+      if(f10==25 && comer1==1){ 
+          
+          
+        elementos11=document.getElementById("elementos"+(f10-14)).src="Ficha2.jpg";
+            elementos18=document.getElementById("elementos18").src="Cuane.jpg";
+             
+        
+        elementos25=document.getElementById("elementos25").src="Cuane.jpg";
+        b=false;
+        puntJug1=puntJug1+1;
+
+             
+  }else if(f10==25 && comer1==2){ 
+
+    elementos18=document.getElementById("elementos"+(f10-7)).src="Ficha2.jpg";
+             b=true;
+             elementos25=document.getElementById("elementos25").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+
+          /////////////////////////////////////////////////////////////////
+          if(punt1==12){
+        f10=24;
+     if(Ficha1==2){
+        
+      if(f10==24 && comer1==1){ 
+          
+          
+        elementos6=document.getElementById("elementos"+(f10-18)).src="Ficha2.jpg";
+            elementos15=document.getElementById("elementos15").src="Cuane.jpg";
+             
+        
+        elementos24=document.getElementById("elementos24").src="Cuane.jpg";
+        b=false;
+        puntJug1=puntJug1+1;
+
+             
+  }else if(f10==24 && comer1==2){ 
+
+    elementos15=document.getElementById("elementos"+(f10-9)).src="Ficha2.jpg";
+             b=true;
+             elementos24=document.getElementById("elementos24").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+////////////////////////////////////////////////////////////////////////////////
+
+
+if(punt1==11){
+        f10=22;
+     if(Ficha1==1){
+        
+      if(f10==22 && comer1==1){ 
+          
+          
+        elementos8=document.getElementById("elementos"+(f10-14)).src="Ficha2.jpg";
+            elementos15=document.getElementById("elementos15").src="Cuane.jpg";
+             
+        
+        elementos22=document.getElementById("elementos22").src="Cuane.jpg";
+        b=false;
+        puntJug1=puntJug1+1;
+
+             
+  }else if(f10==22 && comer1==2){ 
+
+    elementos15=document.getElementById("elementos"+(f10-7)).src="Ficha2.jpg";
+             b=true;
+             elementos22=document.getElementById("elementos22").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+
+
+      if(punt1==11){
+        f10=22;
+     if(Ficha1==2){
+        
+      if(f10==22 && comer1==1){ 
+          
+          
+        elementos4=document.getElementById("elementos"+(f10-18)).src="Ficha2.jpg";
+            elementos13=document.getElementById("elementos13").src="Cuane.jpg";
+             
+        
+        elementos22=document.getElementById("elementos22").src="Cuane.jpg";
+        b=false;
+        puntJug1=puntJug1+1;
+
+             
+  }else if(f10==22 && comer1==2){ 
+
+    elementos13=document.getElementById("elementos"+(f10-9)).src="Ficha2.jpg";
+             b=true;
+             elementos22=document.getElementById("elementos22").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+          /////////////////////////////////////////////////////////////////////////
+if(punt1==10){
+        f10=20;
+     if(Ficha1==1){
+        
+      if(f10==20 && comer1==1){ 
+          
+          
+        elementos6=document.getElementById("elementos"+(f10-14)).src="Ficha2.jpg";
+            elementos13=document.getElementById("elementos13").src="Cuane.jpg";
+             
+        
+        elementos20=document.getElementById("elementos20").src="Cuane.jpg";
+        b=false;
+        puntJug1=puntJug1+1;
+
+             
+  }else if(f10==20 && comer1==2){ 
+
+    elementos13=document.getElementById("elementos"+(f10-7)).src="Ficha2.jpg";
+             b=true;
+             elementos20=document.getElementById("elementos20").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+
+
+      if(punt1==10){
+        f10=20;
+     if(Ficha1==2){
+        
+      if(f10==20 && comer1==1){ 
+          
+          
+        elementos2=document.getElementById("elementos"+(f10-18)).src="Ficha2.jpg";
+            elementos11=document.getElementById("elementos11").src="Cuane.jpg";
+             
+        
+        elementos20=document.getElementById("elementos20").src="Cuane.jpg";
+        b=false;
+        puntJug1=puntJug1+1;
+
+             
+  }else if(f10==20 && comer1==2){ 
+
+    elementos11=document.getElementById("elementos"+(f10-9)).src="Ficha2.jpg";
+             b=true;
+             elementos20=document.getElementById("elementos20").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+          ////////////////////////////////////////////////////////////////////////
+
+if(punt1==9){
+        f10=18;
+     if(Ficha1==1){
+        
+      if(f10==18 && comer1==1){ 
+          
+          
+        elementos4=document.getElementById("elementos"+(f10-14)).src="Ficha2.jpg";
+            elementos11=document.getElementById("elementos11").src="Cuane.jpg";
+             
+        
+        elementos18=document.getElementById("elementos18").src="Cuane.jpg";
+        b=false;
+        puntJug1=puntJug1+1;
+
+             
+  }else if(f10==18 && comer1==2){ 
+
+    elementos11=document.getElementById("elementos"+(f10-7)).src="Ficha2.jpg";
+             b=true;
+             elementos18=document.getElementById("elementos18").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+
+
+      if(punt1==9){
+        f10=18;
+     if(Ficha1==2){
+        
+      if(f10==20 && comer1==2){ 
+
+    elementos11=document.getElementById("elementos"+(f10-9)).src="Ficha2.jpg";
+             b=true;
+             elementos20=document.getElementById("elementos20").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+          //////////////////////////////////////////////////////////////
+          if(punt1==8){
+        f10=15;
+     if(Ficha1==1){
+        
+     
+          
+          
+         if(f10==15 && comer1==2){ 
+
+    elementos8=document.getElementById("elementos"+(f10-7)).src="Ficha2.jpg";
+             b=true;
+             elementos15=document.getElementById("elementos15").src="Cuane.jpg";
+    
+            alert("Has ganado Jugador1 con los puntos:"+puntJug1);
+    return;
+      
+              }
+     
+      }
+
+          }
+
+
+
+
+      if(punt1==8){
+        f10=15;
+     if(Ficha1==2){
+        
+       if(f10==15 && comer1==2){ 
+
+    elementos6=document.getElementById("elementos"+(f10-9)).src="Ficha2.jpg";
+             b=true;
+             elementos15=document.getElementById("elementos15").src="Cuane.jpg";
+    
+            alert("Has ganado Jugador1 con los puntos:"+puntJug1);
+    return;
+      
+              }
+     
+      }
+
+          }
+
+
+
+          //////////////////////////////////////////////////////////////////////
+          if(punt1==7){
+        f10=13;
+     if(Ficha1==1){
+        
+     
+          
+          
+         if(f10==13 && comer1==2){ 
+
+    elementos6=document.getElementById("elementos"+(f10-7)).src="Ficha2.jpg";
+             b=true;
+             elementos13=document.getElementById("elementos13").src="Cuane.jpg";
+    
+            alert("Has ganado Jugador1 con los puntos:"+puntJug1);
+    return;
+      
+              }
+     
+      }
+
+          }
+
+
+
+
+      if(punt1==7){
+        f10=13;
+     if(Ficha1==2){
+        
+       if(f10==13 && comer1==2){ 
+
+    elementos4=document.getElementById("elementos"+(f10-9)).src="Ficha2.jpg";
+             b=true;
+             elementos13=document.getElementById("elementos13").src="Cuane.jpg";
+    alert("Has ganado Jugador1 con los puntos:"+puntJug1);
+    return;
+            
+      
+              }
+     
+      }
+
+          }
+
+          //////////////////////////////////////////////////////////////////////////////7
+          if(punt1==6){
+        f10=11;
+     if(Ficha1==1){
+        
+     
+          
+          
+         if(f10==11 && comer1==2){ 
+
+    elementos4=document.getElementById("elementos"+(f10-7)).src="Ficha2.jpg";
+             b=true;
+             elementos11=document.getElementById("elementos11").src="Cuane.jpg";
+         alert("Has ganado Jugador1 con los puntos:"+puntJug1);
+    return;
+            
+      
+              }
+     
+      }
+
+          }
+
+
+
+
+      if(punt1==6){
+        f10=11;
+     if(Ficha1==2){
+        
+       if(f10==11 && comer1==2){ 
+
+    elementos2=document.getElementById("elementos"+(f10-9)).src="Ficha2.jpg";
+             b=true;
+             elementos11=document.getElementById("elementos11").src="Cuane.jpg";
+        alert("Has ganado Jugador1 con los puntos:"+puntJug1);
+    return;
+            
+      
+              }
+     
+      }
+
+          }
+
+
+          //////////////////////////////////////////////////
+           if(punt1==5){
+        f10=9;
+     if(Ficha1==1){
+        
+     
+          
+          
+         if(f10==9 && comer1==2){ 
+
+    elementos4=document.getElementById("elementos"+(f10-7)).src="Ficha2.jpg";
+             b=true;
+             elementos9=document.getElementById("elementos9").src="Cuane.jpg";
+             alert("Has ganado Jugador1 con los puntos:"+puntJug1);
+    return;
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+          //////////////////////////////////////////////////////
+         
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+           
+
+
+
+
+          ////////////////////////////////////////////////////////////////////
+
+
+
+          if(punt2==28){
+        f10=56;
+     if(Ficha2==2){
+        
+      if(f10==56 && comer2==2){ 
+
+    elementos63=document.getElementById("elementos"+(f10+7)).src="Ficha1.jpg";
+             b=true;
+             elementos56=document.getElementById("elementos56").src="Cuane.jpg";
+             alert("Has ganado Jugador2 con los puntos:"+puntJug2);
+    return;
+
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+          //////////////////////////////////////////////////////////////////////////////
+
+           if(punt2==27){
+        f10=54;
+     if(Ficha2==1){
+        
+       if(f10==54 && comer2==2){ 
+
+    elementos63=document.getElementById("elementos"+(f10+9)).src="Ficha1.jpg";
+             b=true;
+             elementos54=document.getElementById("elementos54").src="Cuane.jpg";
+
+             alert("Has ganado Jugador2 con los puntos:"+puntJug2);
+    return;
+
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+
+
+      if(punt2==27){
+        f10=54;
+     if(Ficha2==2){
+        
+      if(f10==54 && comer2==2){ 
+
+    elementos61=document.getElementById("elementos"+(f10+7)).src="Ficha1.jpg";
+             b=true;
+             elementos54=document.getElementById("elementos54").src="Cuane.jpg";
+
+             alert("Has ganado Jugador2 con los puntos:"+puntJug2);
+    return;
+
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+
+          ////////////////////////////////////////////////////////////////////////////////
+
+
+
+           if(punt2==26){
+        f10=52;
+     if(Ficha2==1){
+        
+      if(f10==52 && comer2==2){ 
+
+    elementos61=document.getElementById("elementos"+(f10+9)).src="Ficha1.jpg";
+             b=true;
+             elementos52=document.getElementById("elementos52").src="Cuane.jpg";
+             alert("Has ganado Jugador2 con los puntos:"+puntJug2);
+    return;
+
+
+
+
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+
+
+      if(punt2==26){
+        f10=52;
+     if(Ficha2==2){
+        
+       if(f10==52 && comer2==2){ 
+
+    elementos59=document.getElementById("elementos"+(f10+7)).src="Ficha1.jpg";
+             b=true;
+             elementos52=document.getElementById("elementos52").src="Cuane.jpg";
+             alert("Has ganado Jugador2 con los puntos:"+puntJug2);
+    return;
+
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+          ////////////////////////////////////////////////////////////////////////////////
+
+
+           if(punt2==25){
+        f10=50;
+     if(Ficha2==1){
+        
+      if(f10==50 && comer2==2){ 
+
+    elementos59=document.getElementById("elementos"+(f10+9)).src="Ficha1.jpg";
+             b=true;
+             elementos50=document.getElementById("elementos50").src="Cuane.jpg";
+
+             alert("Has ganado Jugador2 con los puntos:"+puntJug2);
+    return;
+
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+
+
+      if(punt2==25){
+        f10=50;
+     if(Ficha2==2){
+        
+      if(f10==50 && comer2==2){ 
+
+    elementos57=document.getElementById("elementos"+(f10+7)).src="Ficha1.jpg";
+             b=true;
+             elementos50=document.getElementById("elementos50").src="Cuane.jpg";
+
+             alert("Has ganado Jugador2 con los puntos:"+puntJug2);
+    return;
+
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+          ////////////////////////////////////////////////////////////////////////////
+
+           if(punt2==24){
+        f10=47;
+     if(Ficha2==1){
+        
+      if(f10==47 && comer2==1){ 
+          
+          
+        elementos65=document.getElementById("elementos"+(f10+18)).src="Ficha1.jpg";
+            elementos56=document.getElementById("elementos56").src="Cuane.jpg";
+             
+        
+        elementos47=document.getElementById("elementos47").src="Cuane.jpg";
+        b=false;
+        puntJug2=puntJug2+1;
+
+             
+  }else if(f10==47 && comer2==2){ 
+
+    elementos56=document.getElementById("elementos"+(f10+9)).src="Ficha1.jpg";
+             b=true;
+             elementos47=document.getElementById("elementos47").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+
+
+      if(punt2==24){
+        f10=47;
+     if(Ficha2==2){
+        
+      if(f10==47 && comer2==1){ 
+          
+          
+        elementos61=document.getElementById("elementos"+(f10+14)).src="Ficha1.jpg";
+            elementos54=document.getElementById("elementos54").src="Cuane.jpg";
+             
+        
+        elementos47=document.getElementById("elementos47").src="Cuane.jpg";
+        b=false;
+        puntJug2=puntJug2+1;
+
+             
+  }else if(f10==47 && comer2==2){ 
+
+    elementos54=document.getElementById("elementos"+(f10+7)).src="Ficha1.jpg";
+             b=true;
+             elementos47=document.getElementById("elementos47").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+
+          //////////////////////////////////////////////////////////////////////////////
+
+
+           if(punt2==23){
+        f10=45;
+     if(Ficha2==1){
+        
+      if(f10==45 && comer2==1){ 
+          
+          
+        elementos63=document.getElementById("elementos"+(f10+18)).src="Ficha1.jpg";
+            elementos54=document.getElementById("elementos54").src="Cuane.jpg";
+             
+        
+        elementos45=document.getElementById("elementos45").src="Cuane.jpg";
+        b=false;
+        puntJug2=puntJug2+1;
+
+             
+  }else if(f10==45 && comer2==2){ 
+
+    elementos54=document.getElementById("elementos"+(f10+9)).src="Ficha1.jpg";
+             b=true;
+             elementos45=document.getElementById("elementos45").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+
+
+      if(punt2==23){
+        f10=45;
+     if(Ficha2==2){
+        
+      if(f10==45 && comer2==1){ 
+          
+          
+        elementos59=document.getElementById("elementos"+(f10+14)).src="Ficha1.jpg";
+            elementos52=document.getElementById("elementos52").src="Cuane.jpg";
+             
+        
+        elementos45=document.getElementById("elementos45").src="Cuane.jpg";
+        b=false;
+        puntJug2=puntJug2+1;
+
+             
+  }else if(f10==45 && comer2==2){ 
+
+    elementos52=document.getElementById("elementos"+(f10+7)).src="Ficha1.jpg";
+             b=true;
+             elementos45=document.getElementById("elementos45").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+
+
+
+
+          /////////////////////////////////////////////////////////////////////////////////////////////
+
+           if(punt2==22){
+        f10=43;
+     if(Ficha2==1){
+        
+      if(f10==43 && comer2==1){ 
+          
+          
+        elementos61=document.getElementById("elementos"+(f10+18)).src="Ficha1.jpg";
+            elementos52=document.getElementById("elementos52").src="Cuane.jpg";
+             
+        
+        elementos43=document.getElementById("elementos43").src="Cuane.jpg";
+        b=false;
+        puntJug2=puntJug2+1;
+
+             
+  }else if(f10==43 && comer2==2){ 
+
+    elementos52=document.getElementById("elementos"+(f10+9)).src="Ficha1.jpg";
+             b=true;
+             elementos43=document.getElementById("elementos43").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+
+
+      if(punt2==22){
+        f10=43;
+     if(Ficha2==2){
+        
+      if(f10==43 && comer2==1){ 
+          
+          
+        elementos57=document.getElementById("elementos"+(f10+14)).src="Ficha1.jpg";
+            elementos50=document.getElementById("elementos50").src="Cuane.jpg";
+             
+        
+        elementos43=document.getElementById("elementos43").src="Cuane.jpg";
+        b=false;
+        puntJug2=puntJug2+1;
+
+             
+  }else if(f10==43 && comer2==2){ 
+
+    elementos50=document.getElementById("elementos"+(f10+7)).src="Ficha1.jpg";
+             b=true;
+             elementos43=document.getElementById("elementos43").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+
+
+
+
+          /////////////////////////////////////////////////////////////////////////////////////////////
+
+         if(punt2==21){
+        f10=41;
+     if(Ficha2==1){
+        
+      if(f10==41 && comer2==1){ 
+          
+          
+        elementos59=document.getElementById("elementos"+(f10+18)).src="Ficha1.jpg";
+            elementos50=document.getElementById("elementos50").src="Cuane.jpg";
+             
+        
+        elementos41=document.getElementById("elementos41").src="Cuane.jpg";
+        b=false;
+        puntJug2=puntJug2+1;
+
+             
+  }else if(f10==41 && comer2==2){ 
+
+    elementos50=document.getElementById("elementos"+(f10+9)).src="Ficha1.jpg";
+             b=true;
+             elementos41=document.getElementById("elementos41").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+
+          //////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+      if(punt2==20){
+        f10=40;
+     if(Ficha2==2){
+        
+      if(f10==40 && comer2==1){ 
+          
+          
+        elementos54=document.getElementById("elementos"+(f10+14)).src="Ficha1.jpg";
+            elementos47=document.getElementById("elementos47").src="Cuane.jpg";
+             
+        
+        elementos40=document.getElementById("elementos40").src="Cuane.jpg";
+        b=false;
+        puntJug2=puntJug2+1;
+
+             
+  }else if(f10==40 && comer2==2){ 
+
+    elementos47=document.getElementById("elementos"+(f10+7)).src="Ficha1.jpg";
+             b=true;
+             elementos40=document.getElementById("elementos40").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+
+
+          ////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+          if(punt2==19){
+        f10=38;
+     if(Ficha2==1){
+        
+      if(f10==38 && comer2==1){ 
+          
+          
+        elementos56=document.getElementById("elementos"+(f10+18)).src="Ficha1.jpg";
+            elementos47=document.getElementById("elementos47").src="Cuane.jpg";
+             
+        
+        elementos38=document.getElementById("elementos38").src="Cuane.jpg";
+        b=false;
+        puntJug2=puntJug2+1;
+
+             
+  }else if(f10==38 && comer2==2){ 
+
+    elementos47=document.getElementById("elementos"+(f10+9)).src="Ficha1.jpg";
+             b=true;
+             elementos38=document.getElementById("elementos38").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+
+
+      if(punt2==19){
+        f10=38;
+     if(Ficha2==2){
+        
+      if(f10==38 && comer2==1){ 
+          
+          
+        elementos52=document.getElementById("elementos"+(f10+14)).src="Ficha1.jpg";
+            elementos45=document.getElementById("elementos45").src="Cuane.jpg";
+             
+        
+        elementos38=document.getElementById("elementos38").src="Cuane.jpg";
+        b=false;
+        puntJug2=puntJug2+1;
+
+             
+  }else if(f10==38 && comer2==2){ 
+
+    elementos45=document.getElementById("elementos"+(f10+7)).src="Ficha1.jpg";
+             b=true;
+             elementos38=document.getElementById("elementos38").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+
+          ///////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+if(punt2==18){
+        f10=36;
+     if(Ficha2==1){
+        
+      if(f10==36 && comer2==1){ 
+          
+          
+        elementos54=document.getElementById("elementos"+(f10+18)).src="Ficha1.jpg";
+            elementos45=document.getElementById("elementos45").src="Cuane.jpg";
+             
+        
+        elementos36=document.getElementById("elementos36").src="Cuane.jpg";
+        b=false;
+        puntJug2=puntJug2+1;
+
+             
+  }else if(f10==36 && comer2==2){ 
+
+    elementos45=document.getElementById("elementos"+(f10+9)).src="Ficha1.jpg";
+             b=true;
+             elementos36=document.getElementById("elementos36").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+
+
+      if(punt2==18){
+        f10=36;
+     if(Ficha2==2){
+        
+      if(f10==36 && comer2==1){ 
+          
+          
+        elementos50=document.getElementById("elementos"+(f10+14)).src="Ficha1.jpg";
+            elementos43=document.getElementById("elementos43").src="Cuane.jpg";
+             
+        
+        elementos36=document.getElementById("elementos36").src="Cuane.jpg";
+        b=false;
+        puntJug2=puntJug2+1;
+
+             
+  }else if(f10==36 && comer2==2){ 
+
+    elementos43=document.getElementById("elementos"+(f10+7)).src="Ficha1.jpg";
+             b=true;
+             elementos36=document.getElementById("elementos36").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+
+
+///////////////////////////////////////////////////////////////////
+
+if(punt2==17){
+        f10=34;
+     if(Ficha2==1){
+        
+      if(f10==34 && comer2==1){ 
+          
+          
+        elementos52=document.getElementById("elementos"+(f10+18)).src="Ficha1.jpg";
+            elementos43=document.getElementById("elementos43").src="Cuane.jpg";
+             
+        
+        elementos34=document.getElementById("elementos34").src="Cuane.jpg";
+        b=false;
+        puntJug2=puntJug2+1;
+
+             
+  }else if(f10==34 && comer2==2){ 
+
+    elementos43=document.getElementById("elementos"+(f10+9)).src="Ficha1.jpg";
+             b=true;
+             elementos34=document.getElementById("elementos34").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+
+
+      if(punt2==17){
+        f10=34;
+     if(Ficha2==2){
+        
+      if(f10==34 && comer2==1){ 
+          
+          
+        elementos48=document.getElementById("elementos"+(f10+14)).src="Ficha1.jpg";
+            elementos41=document.getElementById("elementos41").src="Cuane.jpg";
+             
+        
+        elementos34=document.getElementById("elementos34").src="Cuane.jpg";
+        b=false;
+        puntJug2=puntJug2+1;
+
+             
+  }else if(f10==34 && comer2==2){ 
+
+    elementos41=document.getElementById("elementos"+(f10+7)).src="Ficha1.jpg";
+             b=true;
+             elementos34=document.getElementById("elementos34").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+
+///////////////////////////////////////////////////////////////////////
+if(punt2==16){
+        f10=31;
+     if(Ficha2==1){
+        
+      if(f10==31 && comer2==1){ 
+          
+          
+        elementos49=document.getElementById("elementos"+(f10+18)).src="Ficha1.jpg";
+            elementos40=document.getElementById("elementos40").src="Cuane.jpg";
+             
+        
+        elementos31=document.getElementById("elementos31").src="Cuane.jpg";
+        b=false;
+        puntJug2=puntJug2+1;
+
+             
+  }else if(f10==31 && comer2==2){ 
+
+    elementos40=document.getElementById("elementos"+(f10+9)).src="Ficha1.jpg";
+             b=true;
+             elementos31=document.getElementById("elementos31").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+
+
+      if(punt2==16){
+        f10=31;
+     if(Ficha2==2){
+        
+      if(f10==31 && comer2==1){ 
+          
+          
+        elementos45=document.getElementById("elementos"+(f10+14)).src="Ficha1.jpg";
+            elementos38=document.getElementById("elementos38").src="Cuane.jpg";
+             
+        
+        elementos31=document.getElementById("elementos31").src="Cuane.jpg";
+        b=false;
+        puntJug2=puntJug2+1;
+
+             
+  }else if(f10==31 && comer2==2){ 
+
+    elementos38=document.getElementById("elementos"+(f10+7)).src="Ficha1.jpg";
+             b=true;
+             elementos31=document.getElementById("elementos31").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+          ///////////////////////////////////////////////////////////
+
+
+       if(punt2==15){
+        f10=29;
+     if(Ficha2==1){
+        
+      if(f10==29 && comer2==1){ 
+          
+          
+        elementos47=document.getElementById("elementos"+(f10+18)).src="Ficha1.jpg";
+            elementos38=document.getElementById("elementos38").src="Cuane.jpg";
+             
+        
+        elementos29=document.getElementById("elementos29").src="Cuane.jpg";
+        b=false;
+        puntJug2=puntJug2+1;
+
+             
+  }else if(f10==29 && comer2==2){ 
+
+    elementos38=document.getElementById("elementos"+(f10+9)).src="Ficha1.jpg";
+             b=true;
+             elementos29=document.getElementById("elementos29").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+
+          
+
+
+
+
+      if(punt2==15){
+        f10=29;
+     if(Ficha2==2){
+        
+      if(f10==29 && comer2==1){ 
+          
+          
+        elementos43=document.getElementById("elementos"+(f10+14)).src="Ficha1.jpg";
+            elementos36=document.getElementById("elementos36").src="Cuane.jpg";
+             
+        
+        elementos29=document.getElementById("elementos29").src="Cuane.jpg";
+        b=false;
+        puntJug2=puntJug2+1;
+
+             
+  }else if(f10==29 && comer2==2){ 
+
+    elementos36=document.getElementById("elementos"+(f10+7)).src="Ficha1.jpg";
+             b=true;
+             elementos29=document.getElementById("elementos29").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+
+          ////////////////////////////////////////////////////////
+
+
+
+
+          if(punt2==14){
+        f10=27;
+     if(Ficha2==1){
+        
+      if(f10==27 && comer2==1){ 
+          
+          
+        elementos45=document.getElementById("elementos"+(f10+18)).src="Ficha1.jpg";
+            elementos36=document.getElementById("elementos36").src="Cuane.jpg";
+             
+        
+        elementos27=document.getElementById("elementos27").src="Cuane.jpg";
+        b=false;
+        puntJug2=puntJug2+1;
+
+             
+  }else if(f10==27 && comer2==2){ 
+
+    elementos36=document.getElementById("elementos"+(f10+9)).src="Ficha1.jpg";
+             b=true;
+             elementos27=document.getElementById("elementos27").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+
+
+      if(punt2==14){
+        f10=27;
+     if(Ficha2==2){
+        
+      if(f10==27 && comer2==1){ 
+          
+          
+        elementos41=document.getElementById("elementos"+(f10+14)).src="Ficha1.jpg";
+            elementos34=document.getElementById("elementos34").src="Cuane.jpg";
+             
+        
+        elementos27=document.getElementById("elementos27").src="Cuane.jpg";
+        b=false;
+        puntJug2=puntJug2+1;
+
+             
+  }else if(f10==27 && comer2==2){ 
+
+    elementos34=document.getElementById("elementos"+(f10+7)).src="Ficha1.jpg";
+             b=true;
+             elementos27=document.getElementById("elementos27").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+			
+
+			//CambiaComedor//////////////////////////////////7
+       if(punt2==13){
+   			f10=25;
+     if(Ficha2==1){
+        
+     	if(f10==25 && comer2==1){ 
+     			
+     			
+        elementos43=document.getElementById("elementos"+(f10+18)).src="Ficha1.jpg";
+  	        elementos34=document.getElementById("elementos34").src="Cuane.jpg";
+             
+				
+				elementos25=document.getElementById("elementos25").src="Cuane.jpg";
+				b=false;
+				puntJug2=puntJug2+1;
+
+             
+  }else if(f10==25 && comer2==2){ 
+
+  	elementos34=document.getElementById("elementos"+(f10+9)).src="Ficha1.jpg";
+             b=true;
+             elementos25=document.getElementById("elementos25").src="Cuane.jpg";
+  	
+  	        
+			
+              }
+     
+			}
+
+          }
+
+///////////////////////////////////////////////////////////////////////////////7
+
+
+     	if(punt2==12){
+   			f10=24;
+     if(Ficha2==2){
+        
+     	if(f10==24 && comer2==1){ 
+     			
+     			
+        elementos42=document.getElementById("elementos"+(f10+14)).src="Ficha1.jpg";
+  	        elementos33=document.getElementById("elementos33").src="Cuane.jpg";
+             
+				
+				elementos24=document.getElementById("elementos24").src="Cuane.jpg";
+				b=false;
+				puntJug2=puntJug2+1;
+
+             
+  }else if(f10==24 && comer2==2){ 
+
+  	elementos33=document.getElementById("elementos"+(f10+7)).src="Ficha1.jpg";
+             b=true;
+             elementos24=document.getElementById("elementos24").src="Cuane.jpg";
+  	
+  	        
+			
+              }
+     
+			}
+
+          }
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+
+          if(punt2==11){
+        f10=22;
+     if(Ficha2==1){
+        
+      if(f10==22 && comer2==1){ 
+          
+          
+        elementos40=document.getElementById("elementos"+(f10+18)).src="Ficha1.jpg";
+            elementos31=document.getElementById("elementos31").src="Cuane.jpg";
+             
+        
+        elementos22=document.getElementById("elementos22").src="Cuane.jpg";
+        b=false;
+        puntJug2=puntJug2+1;
+
+             
+  }else if(f10==22 && comer2==2){ 
+
+    elementos31=document.getElementById("elementos"+(f10+9)).src="Ficha1.jpg";
+             b=true;
+             elementos22=document.getElementById("elementos22").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+
+
+      if(punt2==11){
+        f10=22;
+     if(Ficha2==2){
+        
+      if(f10==22 && comer2==1){ 
+          
+          
+        elementos36=document.getElementById("elementos"+(f10+14)).src="Ficha1.jpg";
+            elementos29=document.getElementById("elementos29").src="Cuane.jpg";
+             
+        
+        elementos22=document.getElementById("elementos22").src="Cuane.jpg";
+        b=false;
+        puntJug2=puntJug2+1;
+
+             
+  }else if(f10==22 && comer2==2){ 
+
+    elementos29=document.getElementById("elementos"+(f10+7)).src="Ficha1.jpg";
+             b=true;
+             elementos22=document.getElementById("elementos22").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+   //////////////////////////////////////////////////////////////////
+   if(punt2==10){
+        f10=20;
+     if(Ficha2==1){
+        
+      if(f10==20 && comer2==1){ 
+          
+          
+        elementos38=document.getElementById("elementos"+(f10+18)).src="Ficha1.jpg";
+            elementos29=document.getElementById("elementos29").src="Cuane.jpg";
+             
+        
+        elementos20=document.getElementById("elementos20").src="Cuane.jpg";
+        b=false;
+        puntJug2=puntJug2+1;
+
+             
+  }else if(f10==20 && comer2==2){ 
+
+    elementos29=document.getElementById("elementos"+(f10+9)).src="Ficha1.jpg";
+             b=true;
+             elementos20=document.getElementById("elementos20").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+
+
+      if(punt2==10){
+        f10=20;
+     if(Ficha2==2){
+        
+      if(f10==20 && comer2==1){ 
+          
+          
+        elementos34=document.getElementById("elementos"+(f10+14)).src="Ficha1.jpg";
+            elementos27=document.getElementById("elementos27").src="Cuane.jpg";
+             
+        
+        elementos20=document.getElementById("elementos20").src="Cuane.jpg";
+        b=false;
+        puntJug2=puntJug2+1;
+
+             
+  }else if(f10==20 && comer2==2){ 
+
+    elementos27=document.getElementById("elementos"+(f10+7)).src="Ficha1.jpg";
+             b=true;
+             elementos20=document.getElementById("elementos20").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+          ////////////////////////////////////////////////////////////////////////
+          if(punt2==9){
+        f10=18;
+     if(Ficha2==1){
+        
+      if(f10==18 && comer2==1){ 
+          
+          
+        elementos36=document.getElementById("elementos"+(f10+18)).src="Ficha1.jpg";
+            elementos27=document.getElementById("elementos27").src="Cuane.jpg";
+             
+        
+        elementos18=document.getElementById("elementos18").src="Cuane.jpg";
+        b=false;
+        puntJug2=puntJug2+1;
+
+             
+  }else if(f10==18 && comer2==2){ 
+
+    elementos27=document.getElementById("elementos"+(f10+9)).src="Ficha1.jpg";
+             b=true;
+             elementos18=document.getElementById("elementos18").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+
+
+      if(punt2==9){
+        f10=18;
+     if(Ficha2==2){
+        
+      if(f10==18 && comer2==1){ 
+          
+          
+        elementos32=document.getElementById("elementos"+(f10+14)).src="Ficha1.jpg";
+            elementos25=document.getElementById("elementos25").src="Cuane.jpg";
+             
+        
+        elementos18=document.getElementById("elementos18").src="Cuane.jpg";
+        b=false;
+        puntJug2=puntJug2+1;
+
+             
+  }else if(f10==18 && comer2==2){ 
+
+    elementos25=document.getElementById("elementos"+(f10+7)).src="Ficha1.jpg";
+             b=true;
+             elementos18=document.getElementById("elementos18").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+//////////////////////////////////////////////////////////////////////////////////////7
+
+
+          if(punt2==8){
+        f10=15;
+     if(Ficha2==1){
+        
+      if(f10==15 && comer2==1){ 
+          
+          
+        elementos33=document.getElementById("elementos"+(f10+18)).src="Ficha1.jpg";
+            elementos24=document.getElementById("elementos24").src="Cuane.jpg";
+             
+        
+        elementos15=document.getElementById("elementos15").src="Cuane.jpg";
+        b=false;
+        puntJug2=puntJug2+1;
+
+             
+  }else if(f10==15 && comer2==2){ 
+
+    elementos24=document.getElementById("elementos"+(f10+9)).src="Ficha1.jpg";
+             b=true;
+             elementos15=document.getElementById("elementos15").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+
+
+      if(punt2==8){
+        f10=15;
+     if(Ficha2==2){
+        
+      if(f10==15 && comer2==1){ 
+          
+          
+        elementos29=document.getElementById("elementos"+(f10+14)).src="Ficha1.jpg";
+            elementos22=document.getElementById("elementos22").src="Cuane.jpg";
+             
+        
+        elementos15=document.getElementById("elementos15").src="Cuane.jpg";
+        b=false;
+        puntJug2=puntJug2+1;
+
+             
+  }else if(f10==15 && comer2==2){ 
+
+    elementos22=document.getElementById("elementos"+(f10+7)).src="Ficha1.jpg";
+             b=true;
+             elementos15=document.getElementById("elementos15").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+       
+
+//////////////////////////////////////////////////////
+
+      if(punt2==7){
+        f10=13;
+     if(Ficha2==1){
+        
+      if(f10==13 && comer2==1){ 
+          
+          
+        elementos31=document.getElementById("elementos"+(f10+18)).src="Ficha1.jpg";
+            elementos22=document.getElementById("elementos22").src="Cuane.jpg";
+             
+        
+        elementos13=document.getElementById("elementos13").src="Cuane.jpg";
+        b=false;
+        puntJug2=puntJug2+1;
+
+             
+  }else if(f10==13 && comer2==2){ 
+
+    elementos22=document.getElementById("elementos"+(f10+9)).src="Ficha1.jpg";
+             b=true;
+             elementos13=document.getElementById("elementos13").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+
+
+      if(punt2==7){
+        f10=13;
+     if(Ficha2==2){
+        
+      if(f10==13 && comer2==1){ 
+          
+          
+        elementos27=document.getElementById("elementos"+(f10+14)).src="Ficha1.jpg";
+            elementos20=document.getElementById("elementos20").src="Cuane.jpg";
+             
+        
+        elementos13=document.getElementById("elementos13").src="Cuane.jpg";
+        b=false;
+        puntJug2=puntJug2+1;
+
+             
+  }else if(f10==13 && comer2==2){ 
+
+    elementos20=document.getElementById("elementos"+(f10+7)).src="Ficha1.jpg";
+             b=true;
+             elementos13=document.getElementById("elementos13").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+/////////////////////////////////////////////////////////////////
+
+
+          if(punt2==6){
+        f10=11;
+     if(Ficha2==1){
+        
+      if(f10==11 && comer2==1){ 
+          
+          
+        elementos29=document.getElementById("elementos"+(f10+18)).src="Ficha1.jpg";
+            elementos20=document.getElementById("elementos20").src="Cuane.jpg";
+             
+        
+        elementos11=document.getElementById("elementos11").src="Cuane.jpg";
+        b=false;
+        puntJug2=puntJug2+1;
+
+             
+  }else if(f10==11 && comer2==2){ 
+
+    elementos20=document.getElementById("elementos"+(f10+9)).src="Ficha1.jpg";
+             b=true;
+             elementos11=document.getElementById("elementos11").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+
+
+      if(punt2==6){
+        f10=11;
+     if(Ficha2==2){
+        
+      if(f10==11 && comer2==1){ 
+          
+          
+        elementos25=document.getElementById("elementos"+(f10+14)).src="Ficha1.jpg";
+            elementos18=document.getElementById("elementos18").src="Cuane.jpg";
+             
+        
+        elementos11=document.getElementById("elementos11").src="Cuane.jpg";
+        b=false;
+        puntJug2=puntJug2+1;
+
+             
+  }else if(f10==11 && comer2==2){ 
+
+    elementos18=document.getElementById("elementos"+(f10+7)).src="Ficha1.jpg";
+             b=true;
+             elementos11=document.getElementById("elementos11").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+          /////////////////////////////////////////////////////////////////////////////////7
+
+
+
+
+           if(punt2==5){
+        f10=9;
+     if(Ficha2==1){
+        
+      if(f10==9 && comer2==1){ 
+          
+          
+        elementos27=document.getElementById("elementos"+(f10+18)).src="Ficha1.jpg";
+            elementos18=document.getElementById("elementos18").src="Cuane.jpg";
+             
+        
+        elementos9=document.getElementById("elementos9").src="Cuane.jpg";
+        b=false;
+        puntJug2=puntJug2+1;
+
+             
+  }else if(f10==9 && comer2==2){ 
+
+    elementos18=document.getElementById("elementos"+(f10+9)).src="Ficha1.jpg";
+             b=true;
+             elementos9=document.getElementById("elementos9").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+//////////////////////////////////////////////////////////////////////////////////
+
+
+  if(punt2==4){
+        f10=8;
+     if(Ficha2==2){
+        
+      if(f10==8 && comer2==1){ 
+          
+          
+        elementos22=document.getElementById("elementos"+(f10+14)).src="Ficha1.jpg";
+            elementos15=document.getElementById("elementos15").src="Cuane.jpg";
+             
+        
+        elementos8=document.getElementById("elementos8").src="Cuane.jpg";
+        b=false;
+        puntJug2=puntJug2+1;
+
+             
+  }else if(f10==8 && comer2==2){ 
+
+    elementos15=document.getElementById("elementos"+(f10+7)).src="Ficha1.jpg";
+             b=true;
+             elementos8=document.getElementById("elementos8").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+          ////////////////////////////////////////////////////////////////////
+
+if(punt2==3){
+        f10=6;
+     if(Ficha2==1){
+        
+      if(f10==6 && comer2==1){ 
+          
+          
+        elementos24=document.getElementById("elementos"+(f10+18)).src="Ficha1.jpg";
+            elementos15=document.getElementById("elementos15").src="Cuane.jpg";
+             
+        
+        elementos6=document.getElementById("elementos6").src="Cuane.jpg";
+        b=false;
+        puntJug2=puntJug2+1;
+
+             
+  }else if(f10==6 && comer2==2){ 
+
+    elementos15=document.getElementById("elementos"+(f10+9)).src="Ficha1.jpg";
+             b=true;
+             elementos6=document.getElementById("elementos6").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+
+
+      if(punt2==3){
+        f10=6;
+     if(Ficha2==2){
+        
+      if(f10==6 && comer2==1){ 
+          
+          
+        elementos20=document.getElementById("elementos"+(f10+14)).src="Ficha1.jpg";
+            elementos13=document.getElementById("elementos13").src="Cuane.jpg";
+             
+        
+        elementos6=document.getElementById("elementos6").src="Cuane.jpg";
+        b=false;
+        puntJug2=puntJug2+1;
+
+             
+  }else if(f10==6 && comer2==2){ 
+
+    elementos13=document.getElementById("elementos"+(f10+7)).src="Ficha1.jpg";
+             b=true;
+             elementos6=document.getElementById("elementos6").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+
+   /////////////////////////////////////////////////////////////////////
+   if(punt2==2){
+        f10=4;
+     if(Ficha2==1){
+        
+      if(f10==4 && comer2==1){ 
+          
+          
+        elementos22=document.getElementById("elementos"+(f10+18)).src="Ficha1.jpg";
+            elementos13=document.getElementById("elementos13").src="Cuane.jpg";
+             
+        
+        elementos4=document.getElementById("elementos4").src="Cuane.jpg";
+        b=false;
+        puntJug2=puntJug2+1;
+
+             
+  }else if(f10==4 && comer2==2){ 
+
+    elementos13=document.getElementById("elementos"+(f10+9)).src="Ficha1.jpg";
+             b=true;
+             elementos4=document.getElementById("elementos4").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+
+
+      if(punt2==2){
+        f10=4;
+     if(Ficha2==2){
+        
+      if(f10==4 && comer2==1){ 
+          
+          
+        elementos18=document.getElementById("elementos"+(f10+14)).src="Ficha1.jpg";
+            elementos11=document.getElementById("elementos11").src="Cuane.jpg";
+             
+        
+        elementos4=document.getElementById("elementos4").src="Cuane.jpg";
+        b=false;
+        puntJug2=puntJug2+1;
+
+             
+  }else if(f10==4 && comer2==2){ 
+
+    elementos11=document.getElementById("elementos"+(f10+7)).src="Ficha1.jpg";
+             b=true;
+             elementos4=document.getElementById("elementos4").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+
+
+          ////////////////////////////////////////////////////////////////////////////////
+       
+
+       if(punt2==1){
+        f10=2;
+     if(Ficha2==1){
+        
+      if(f10==2 && comer2==1){ 
+          
+          
+        elementos20=document.getElementById("elementos"+(f10+18)).src="Ficha1.jpg";
+            elementos11=document.getElementById("elementos11").src="Cuane.jpg";
+             
+        
+        elementos2=document.getElementById("elementos2").src="Cuane.jpg";
+        b=false;
+        puntJug2=puntJug2+1;
+
+             
+  }else if(f10==2 && comer2==2){ 
+
+    elementos11=document.getElementById("elementos"+(f10+9)).src="Ficha1.jpg";
+             b=true;
+             elementos2=document.getElementById("elementos2").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+
+
+      if(punt2==1){
+        f10=2;
+     if(Ficha2==2){
+        
+      if(f10==2 && comer2==1){ 
+          
+          
+        elementos16=document.getElementById("elementos"+(f10+14)).src="Ficha1.jpg";
+            elementos9=document.getElementById("elementos9").src="Cuane.jpg";
+             
+        
+        elementos2=document.getElementById("elementos2").src="Cuane.jpg";
+        b=false;
+        puntJug2=puntJug2+1;
+
+             
+  }else if(f10==2 && comer2==2){ 
+
+    elementos9=document.getElementById("elementos"+(f10+7)).src="Ficha1.jpg";
+             b=true;
+             elementos2=document.getElementById("elementos2").src="Cuane.jpg";
+    
+            
+      
+              }
+     
+      }
+
+          }
+
+
+
+		
+	}
+
+       
+
+
+		function borrar(){ 
+	document.getElementById("elementos").innerHTML="";
+
+
+}
+
+
+
+	</script>
+</head>
+<body  background="fon.jpg">
+
+	<div>
+
+		<center><h1 id="turno">Turno de Jugador2 </h1></center>
+		
+	
+
+	<div>
+   <center>
+
+	<div class="well"><h1>DAMAS INGLESAS</h1></div>
+	<div class="container">
+		<div class="form-group">
+			<label for="">¿Que fichas comeras jug1</label>
+			<select name="comer1" id="comer1" class="form-control" >
+			<option value="" selected>Seleccionar</option>
+			<option value="1">Si</option>
+			<option value="2">No</option>
+		</select>
+		</div>
+
+
+      <div class="form-group">
+      <label for="">Numero de Ficha Jugador1</label>
+      <input type="text" id="punt1" class="form-control" placeholder=" Teclea numero de ficha Jugador1">
+    </div>
+
+
+    <div class="form-group">
+      <label for="">¿A que lado de la pantalla hacia ti Jugador1?</label>
+      <select name="Ficha1" id="Ficha1" class="form-control" >
+      <option value="" selected>Seleccionar</option>
+      <option value="1">Derecho</option>
+      <option value="2">Izquierda</option>
+    </select>
+    </div>
+
+
+
+    -------------------------------------------------------------
+
+  
+
+
+		<div class="form-group">
+			<label for="">¿Que fichas comeras jug2</label>
+			<select name="comer2" id="comer2" class="form-control" >
+			<option value="" selected>Seleccionar</option>
+			<option value="1">Si</option>
+			<option value="2">No</option>
+		</select>
+		</div>
+		
+
+		<div class="form-group">
+			<label for="">Numero de Ficha Jugador2</label>
+			<input type="text" id="punt2" class="form-control" placeholder=" Teclea numero de ficha Jugador2">
+		</div>
+
+		
+
+		<div class="form-group">
+			<label for="">¿A que lado de la pantalla hacia ti Jugador 2?</label>
+			<select name="Ficha2" id="Ficha2" class="form-control" >
+			<option value="" selected>Seleccionar</option>
+			<option value="1">Derecho</option>
+			<option value="2">Izquierda</option>
+		</select>
+		</div>
+
+		<div class="text-center">
+			<button class="btn btn-info" onclick="registra()">Guardar</button>
+			<button class="btn btn-danger" onclick="borrar()">Borrar</button>
+			<button id="boton" class="boton" onclick="muestraLetra()">Siguiente jugador</button>
+		
+</center>
+
+		<div class="container" id="elementos" ></div>
+
+	</div>
+
+	
+	
+	<div class="col-xs-6">
+		<center><table border="1">
+		<h1 id="numeroAleatrorio">Numero</h1>
+	</div><br>
+	<tr>
+	<td><img src="Cuabla.jpg" id="elementos1" width="90px" > </td>
+
+	<td><img src="Ficha1.jpg" id="elementos2" width="90px"> 1</td>
+
+	<td><img src="Cuabla.jpg" id="elementos3" width="90px"> </td>
+
+	<td><img src="Ficha1.jpg" id="elementos4" width="90px">2 </td>
+
+	<td><img src="Cuabla.jpg" id="elementos5" width="90px"> </td>
+
+	<td><img src="Ficha1.jpg" id="elementos6" width="90px"> 3</td>
+
+	<td><img src="Cuabla.jpg" id="elementos7" width="90px"> </td>
+
+	<td><img src="Ficha1.jpg" id="elementos8" width="90px">4</td>
+
+		
+
+	
+</tr>
+<tr>
+
+	<td><img src="Ficha1.jpg" id="elementos9" width="90px">5</td>
+
+	<td><img src="Cuabla.jpg" id="elementos10" width="90px"> </td>
+
+	<td><img src="Ficha1.jpg" id="elementos11" width="90px">6</td>
+
+	<td><img src="Cuabla.jpg" id="elementos12" width="90px"> </td>
+
+	<td><img src="Ficha1.jpg" id="elementos13" width="90px">7</td>
+
+	<td><img src="Cuabla.jpg" id="elementos14" width="90px"></td>
+
+	<td><img src="Ficha1.jpg" id="elementos15" width="90px">8</td>
+
+	<td><img src="Cuabla.jpg" id="elementos16" width="90px"></td>
+</tr>
+
+<tr>
+	<td><img src="Cuabla.jpg" id="elementos17" width="90px"> </td>
+
+	<td><img src="Ficha1.jpg" id="elementos18" width="90px">9</td>
+
+	<td><img src="Cuabla.jpg" id="elementos19" width="90px"> </td>
+
+	<td><img src="Ficha1.jpg" id="elementos20" width="90px">10 </td>
+
+	<td><img src="Cuabla.jpg" id="elementos21" width="90px"> </td>
+
+	<td><img src="Ficha1.jpg" id="elementos22" width="90px">11</td>
+
+	<td><img src="Cuabla.jpg" id="elementos23" width="90px"> </td>
+
+	<td><img src="Ficha1.jpg" id="elementos24" width="90px">12</td>
+
+	
+</tr>
+
+<tr>
+
+	<td><img src="Cuane.jpg" id="elementos25" width="90px">13</td>
+
+	<td><img src="Cuabla.jpg" id="elementos26" width="90px"></td>
+
+	<td><img src="Cuane.jpg" id="elementos27" width="90px">14</td>
+
+	<td><img src="Cuabla.jpg" id="elementos28" width="90px"> </td>
+
+	<td><img src="Cuane.jpg" id="elementos29" width="90px" >15</td>
+
+	<td><img src="Cuabla.jpg" id="elementos30" width="90px"> </td>
+
+	<td><img src="Cuane.jpg" id="elementos31" width="90px">16</td>
+
+	<td><img src="Cuabla.jpg" id="elementos32" width="90px"> </td>
+</tr>
+
+<tr>
+	<td><img src="Cuabla.jpg" id="elementos33" width="90px"> </td>
+
+	<td><img src="Cuane.jpg" id="elementos34" width="90px">17 </td>
+
+	<td><img src="Cuabla.jpg" id="elementos35" width="90px"> </td>
+
+	<td><img src="Cuane.jpg" id="elementos36" width="90px">18</td>
+
+	<td><img src="Cuabla.jpg" id="elementos37" width="90px"> </td>
+
+	<td><img src="Cuane.jpg" id="elementos38" width="90px">19</td>
+
+	<td><img src="Cuabla.jpg" id="elementos39" width="90px"> </td>
+
+	<td><img src="Cuane.jpg" id="elementos40" width="90px">20</td>
+
+	
+</tr>
+
+<tr>
+
+	<td><img src="Ficha2.jpg" id="elementos41" width="90px">21</td>
+
+	<td><img src="Cuabla.jpg" id="elementos42" width="90px"> </td>
+
+	<td><img src="Ficha2.jpg" id="elementos43" width="90px">22</td>
+
+	<td><img src="Cuabla.jpg" id="elementos44" width="90px"> </td>
+
+	<td><img src="Ficha2.jpg" id="elementos45" width="90px">23</td>
+
+	<td><img src="Cuabla.jpg" id="elementos46" width="90px"> </td>
+
+	<td><img src="Ficha2.jpg" id="elementos47" width="90px">24</td>
+
+	<td><img src="Cuabla.jpg" id="elementos48" width="90px"> </td>
+</tr>
+
+<tr>
+	<td><img src="Cuabla.jpg" id="elementos49" width="90px"> </td>
+
+	<td><img src="Ficha2.jpg" id="elementos50" width="90px">25</td>
+
+	<td><img src="Cuabla.jpg" id="elementos51" width="90px"></td>
+
+	<td><img src="Ficha2.jpg" id="elementos52" width="90px">26</td>
+
+	<td><img src="Cuabla.jpg" id="elementos53" width="90px"> </td>
+
+	<td><img src="Ficha2.jpg" id="elementos54" width="90px">27</td>
+
+	<td><img src="Cuabla.jpg" id="elementos55" width="90px"> </td>
+
+	<td><img src="Ficha2.jpg" id="elementos56" width="90px">28</td>
+
+	
+</tr>
+
+<tr>
+
+	<td><img src="Ficha2.jpg" id="elementos57" width="90px">29</td>
+
+	<td><img src="Cuabla.jpg" id="elementos58" width="90px"> </td>
+
+	<td><img src="Ficha2.jpg" id="elementos59" width="90px">30</td>
+
+	<td><img src="Cuabla.jpg" id="elementos60" width="90px"> </td>
+
+	<td><img src="Ficha2.jpg" id="elementos61" width="90px">31</td>
+
+	<td><img src="Cuabla.jpg" id="elementos62" width="90px"></td>
+
+	<td><img src="Ficha2.jpg" id="elementos63" width="90px">32</td>
+
+	<td><img src="Cuabla.jpg" id="elementos64" width="90px"></td>
+</tr>
+</table></center>
+<h2 width="90px">Programa hecho por: Nikol Sepulveda y Ana Karen Carreon </h2>
+</body>
+</html>
